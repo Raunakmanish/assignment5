@@ -1,0 +1,25 @@
+2023-01-31 18:05:19 notice: `Router::connect()` is deprecated, use the non-static method `RouteBuilder::connect()` instead.
+C:\xampp\htdocs\secondcake2\config\routes.php, line: 46
+You can disable all deprecation warnings by setting `Error.errorLevel` to `E_ALL & ~E_USER_DEPRECATED`. Adding `config/routes.php` to `Error.ignoredDeprecationPaths` in your `config/app.php` config will mute deprecations from that file only.
+Trace:
+deprecationWarning C:\xampp\htdocs\secondcake2\vendor\cakephp\cakephp\src\Core\functions.php, line 323
+Cake\Routing\Router::connect() C:\xampp\htdocs\secondcake2\vendor\cakephp\cakephp\src\Routing\Router.php, line 214
+Cake\Http\BaseApplication::{closure}() C:\xampp\htdocs\secondcake2\config\routes.php, line 46
+Cake\Http\BaseApplication::routes() C:\xampp\htdocs\secondcake2\vendor\cakephp\cakephp\src\Http\BaseApplication.php, line 200
+Cake\Console\CommandRunner::loadRoutes() C:\xampp\htdocs\secondcake2\vendor\cakephp\cakephp\src\Console\CommandRunner.php, line 397
+Cake\Console\CommandRunner::run() C:\xampp\htdocs\secondcake2\vendor\cakephp\cakephp\src\Console\CommandRunner.php, line 147
+[main] C:\xampp\htdocs\secondcake2\bin\cake.php, line 12
+
+2023-01-31 18:05:19 notice: `Router::scope()` is deprecated, use the non-static method `RouteBuilder::scope()` instead.
+C:\xampp\htdocs\secondcake2\vendor\cakephp\cakephp\src\Routing\Router.php, line: 220
+You can disable all deprecation warnings by setting `Error.errorLevel` to `E_ALL & ~E_USER_DEPRECATED`. Adding `vendor/cakephp/cakephp/src/Routing/Router.php` to `Error.ignoredDeprecationPaths` in your `config/app.php` config will mute deprecations from that file only.
+Trace:
+deprecationWarning C:\xampp\htdocs\secondcake2\vendor\cakephp\cakephp\src\Core\functions.php, line 323
+Cake\Routing\Router::scope() C:\xampp\htdocs\secondcake2\vendor\cakephp\cakephp\src\Routing\Router.php, line 841
+Cake\Routing\Router::connect() C:\xampp\htdocs\secondcake2\vendor\cakephp\cakephp\src\Routing\Router.php, line 220
+Cake\Http\BaseApplication::{closure}() C:\xampp\htdocs\secondcake2\config\routes.php, line 46
+Cake\Http\BaseApplication::routes() C:\xampp\htdocs\secondcake2\vendor\cakephp\cakephp\src\Http\BaseApplication.php, line 200
+Cake\Console\CommandRunner::loadRoutes() C:\xampp\htdocs\secondcake2\vendor\cakephp\cakephp\src\Console\CommandRunner.php, line 397
+Cake\Console\CommandRunner::run() C:\xampp\htdocs\secondcake2\vendor\cakephp\cakephp\src\Console\CommandRunner.php, line 147
+[main] C:\xampp\htdocs\secondcake2\bin\cake.php, line 12
+
